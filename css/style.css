@@ -1,0 +1,144 @@
+.topnav {
+  overflow: hidden;
+  background-color: black;
+
+
+}
+
+.image a{
+  width: 130px;
+  height:45px;
+  text-align: left;
+
+
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 11px 150px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-right: 0px;
+  font-weight: bold;
+
+
+}
+
+.test{
+  font-size: 15px;
+  text-align: right;
+
+
+}
+  .midnav .btn {
+  position: center;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FF5733;
+  font-color:black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: -1px;
+  text-align: center;
+  width: 150px;
+  height: 38px;
+
+
+}
+
+.midnav2{
+  font-size: 16px;
+  font-weight: bold;
+
+
+}
+.btn {
+  font-color:red;
+   /*transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 6px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-color:black;
+  border-radius: -1px;
+}
+
+.text{
+   position:absolute;
+    top:200px;
+    left:20px;
+    width:380px;
+    font-weight: bold;
+    color: white;
+    border-radius: -1px;
+
+}
+.text2{
+  position:absolute;
+    top:550px;
+    left:500px;
+    width:300px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    border-radius: -1px;
+
+
+
+
+}
+.text3{
+  position:absolute;
+    top:500px;
+    left:100px;
+    width:200px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+
+    /*position: center;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FF5733;
+  font-color:black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;*/
+
+
+}
+}
+
+}
+/*.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;*/
+
+
+}
+
+}
