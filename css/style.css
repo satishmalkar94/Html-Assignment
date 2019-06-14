@@ -1,7 +1,11 @@
-.topnav {
-  overflow: hidden;
-  background-color: black;
 
+.collapse .navbar-collapse{
+  background-color: red !important;
+
+}
+.navbar-nav{
+  font-weight: bold !important;
+  font-family: myFirstFont3;
 
 }
 
@@ -9,136 +13,212 @@
   width: 130px;
   height:45px;
   text-align: left;
-
-
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 11px 150px;
-  text-decoration: none;
-  font-size: 15px;
-  padding-right: 0px;
-  font-weight: bold;
-
-
 }
 
 .test{
+  font-family: myFirstFont4;
   font-size: 15px;
   text-align: right;
 
-
 }
-  .midnav .btn {
-  position: center;
-  top: 100%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FF5733;
-  font-color:black;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: -1px;
+.bg-img {
+    background: url("../images/background.jpg" );
+    background-size: auto;
+}
+.firstSection{
   text-align: center;
-  width: 150px;
-  height: 38px;
 
 
 }
+.firstSection img{
+  display: inline-flex;
+  padding-top: 0px;
+  /*for image border*/
+  border:3px solid grey;
+  margin-top: 10px;
 
-.midnav2{
+
+
+  }
+
+.secSection img{
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    min-height: 140px;
+    margin-left: 100px;
+    /*margin-top: -30px;*/
+    padding-bottom: 51px;
+
+}
+.secondSection{
   font-size: 16px;
   font-weight: bold;
 
 
 }
-.btn {
-  font-color:red;
-   /*transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-  font-size: 20px;
-  font-weight: bold;
-  padding: 12px 6px;
-  border: none;
-  cursor: pointer;
-  background-color: white;
-  font-color:black;
-  border-radius: -1px;
+.footer .fa {
+    padding: 6px;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 
-.text{
-   position:absolute;
-    top:200px;
-    left:20px;
-    width:380px;
-    font-weight: bold;
+
+.footer .fa-facebook {
+    background: #D5D8DC;
     color: white;
-    border-radius: -1px;
+}
+
+.footer .fa-twitter {
+    background: #D5D8DC;
+    color: white;
+}
+
+.footer .fa-pinterest {
+    background: #D5D8DC;
+    color: white;
+}
+
+.footer .fa-google-plus {
+    background: #D5D8DC;
+    color: white;
+}
+.tcenter .fa{
+
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+.hworks{
+    font-family: myFirstFont4;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: bold;
 
 }
-.text2{
-  position:absolute;
-    top:550px;
-    left:500px;
-    width:300px;
-    font-weight: bold;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    border-radius: -1px;
-
-
-
-
+.firsthead{
+  font-family: fontsecond;
+  font-weight: 600;
+  color: #ffffff;
 }
-.text3{
-  position:absolute;
-    top:500px;
-    left:100px;
-    width:200px;
-    font-weight: bold;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
 
-    /*position: center;
-  top: 100%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FF5733;
-  font-color:black;
-  font-size: 18px;
+.secondhead{
+  font-family: fontsecond;
+  font-weight: 1000px;
+  color: #ffffff;
+}
+.btn.btn-primary.viewgallery{
+  font-family: myFirstFont3;
+  background-color: #fff !important;
+  border-radius: 0px;
+  color: #000;
+  border-color: #fff;
   font-weight: bold;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;*/
-
+}
+.joinnow{
+  font-family: fontsecond;
+  background-color: orange !important;
+  border-radius: 0px;
+  border-color: orange;
+  font-weight: bold;
 
 }
+.mt-2{
+  font-family: myFirstFont;
 }
 
+.round.roundedd {
+    height: 100px;
+    width: 100px;
+    line-height: 40px;
+    -moz-border-radius: 20px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    padding:35px;
 }
-/*.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;*/
+.round{
+
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #E5E7E9 ;
+    color: black;
+    text-align: center;
+  }
+  .tcenter{
+   text-align: center;
+  }
+  .footer{
+    background-color:#DCDCDC;
+    padding: 20px;
 
 
+  }
+  .footer ul li{
+    font-family: myFirstFont;
+    margin: 15px;
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+
+
+  }
+  .footer ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: -114px;
+
+  }
+  .col-md-4{
+    font-family: myFirstFont4;
+    margin-left: -68px;
+  }
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Black.otf);
 }
 
+
+@font-face {
+  font-family: fontsecond;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Bold.otf);
 }
+
+
+
+@font-face {
+  font-family: myFirstFont3;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Regular.otf);
+}
+
+
+@font-face {
+  font-family: myFirstFont4;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: myFirstFont5;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Black.otf);
+}
+
+
+
+
+
+
+
+
+
