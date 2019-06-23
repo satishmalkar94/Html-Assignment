@@ -1,33 +1,50 @@
 
-.collapse .navbar-collapse{
-  background-color: red !important;
-
-}
 .navbar-nav{
-  font-weight: bold !important;
-  font-family: myFirstFont6;
+  font-weight: bold;
+  font-family: emibold.otf;
 
 }
 
-.image a{
-  width: 130px;
-  height:45px;
-  text-align: left;
-}
-/*FOR FOOTER CONTENT*/
-.test{
-  font-family: myFirstFont6;
-  font-size: 15px;
-  text-align: left;
-  color:  #A9A9A9
-
-}
-.bg-img {
+.bg-img{
   background: url("../images/background.jpg" );
   background-size: auto;
+
 }
 .firstSection{
   text-align: center;
+}
+.fartmartop30{
+      margin-top: 30px !important;
+}
+.padtop80{
+  padding:80px 0 20px 0 ;
+
+}
+.textmood{
+      margin: 150px 0 0 100px;
+}
+.martop200{
+  margin-top: -200px;
+}
+
+.artimgborder{
+      border: 5px solid #673c3c;
+    margin: 6px;
+    float: left;
+
+}
+.btnstyle{
+      margin: 30px 10px 10px 10px;
+}
+.borright{
+      border-right: 2px solid #484646;
+
+
+}
+.firstleft{
+    border-left: 2px solid #484646;
+
+
 }
 
 .firstSection img{
@@ -39,12 +56,12 @@
 }
 
 .secSection img{
-    margin: 0 auto;
-    display: block;
-    height: 298px;
-    min-height: 140px;
-    margin-left: 100px;
-    padding-bottom: 51px;
+  margin: 0 auto;
+  display: block;
+  height: 298px;
+  min-height: 140px;
+  margin-left: 100px;
+  padding-bottom: 51px;
 
 }
 .secondSection{
@@ -74,71 +91,70 @@
     line-height: 1;
 }*/
 .hworks{
-    font-family: myFirstFont6;
-    text-align: center;
-    margin-bottom: 80px;
-    font-weight: bold;
+  font-family:SansPro-Regular.otf;
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: bold;
 
 }
 .firsthead{
- font-family: myFirstFont6;
+  font-family: emibold.otf;
   font-weight: 600;
   color: #ffffff;
 }
 
 .secondhead{
-  font-family: myFirstFont6;
+  font-family: emibold.otf;
   font-weight: 1000px;
   color: #ffffff;
 }
 .btn.btn-primary.viewgallery{
-  font-family: myFirstFont6;
-  background-color: #fff !important;
+  font-family: emibold.otf;
+  background-color: #fff;
   border-radius: 0px;
   color: #000;
   border-color: #fff;
   font-weight: bold;
 }
 .joinnow{
-  font-family: myFirstFont6;
-  background-color: orange !important;
+  font-family: emibold.otf;
+  background-color: orange;
   border-radius: 0px;
   border-color: orange;
   font-weight: bold;
-
+    padding: 7px 25px;
 }
 .round.roundedd {
-    height: 100px;
-    width: 100px;
-    line-height: 40px;
-    -moz-border-radius: 20px;
-    border-radius: 50px;
-    font-size: 1.5em;
-    padding:35px;
+  height: 115px;
+  width: 115px;
+ /* line-height: 50px;*/
+  /*-moz-border-radius: 20px;*/
+  border-radius: 150px;
+  font-size: 1.5em;
+  padding:35px;
 }
 
 .round{
-
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    background-color: #E5E7E9 ;
-    color: black;
-    text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #E5E7E9 ;
+  color: black;
+  text-align: center;
   }
   .tcenter{
    text-align: center;
   }
   .fbg{
-    font-family: myFirstFont6;
+    font-family: emibold.otf;
     background-color:#DCDCDC;
 
   }
   .footer  ul li{
-    font-family: myFirstFont6;
+    font-family: SansPro-ExtraLight.otf;
     margin: 15px;
     color: orange;
     font-size: 16px;
@@ -148,33 +164,41 @@
   .footer ul{
     list-style-type: none;
     display: flex;
-   padding: 0;
+    padding: 0;
   }
   .ffont{
-    font-family: myFirstFont4;
+    font-family: SansPro-ExtraLight.otf;
 
   }
 
+  .footer  ul li:first-child{
+     font-family: emibold.otf;
+     color: black;
+  }
+.ft{
+    font-family: emibold.otf;
+    color: black;
+}
 /*FOR MOBILE VIEW RESPONSIVE*/
 @media(max-width: 480px){
 
   .hworks{
-    font-family: myFirstFont6
+    font-family: emibold.otf
     font-size: 22px;
     margin-bottom: 10PX;
   }
   .btn.btn-primary.viewgallery{
-    font-family: myFirstFont6
+    font-family: emibold.otf
     font-size: 12px;
 }
 .joinnow{
-  font-family: myFirstFont6
+  font-family: emibold.otf
   font-size: 12px;
 }
   .fbg p{
     padding-top: 20px;
   }
-  .footer ul li {
+  .footer ul li{
     margin: 1px;
     color: orange;
     font-size: 12px;
@@ -183,17 +207,18 @@
     margin-top: 10px;
 }
   .firsthead{
-    font-family: myFirstFont6
-    font-size: 30px;}
+    /*font-family: emibold.otf*/
+    font-size: 30px;
+  }
   .secondhead{
     font-size: 20px;
+
   }
-  .secSection img {
+  .secSection img{
     margin: 0;
 
 }
-.firstSection img {
-
+.firstSection img{
     display: inline-flex;
     padding-top: 0px;
     border: 1px solid grey;
@@ -204,49 +229,89 @@
     margin-top: 20px;
 
 }
-.firstSection {
-
-    text-align: left;
+.firstSection{
+text-align: left;
 
 }
+.textmood {
+    margin: 50px 0 10px 0;
+}
+.padtop80{
+  padding:0px 0 10px 0;
+}
+.martop200 {
+    margin-top: -100px;
+}
+.textcenter{
+  text-align: center;
+}
+.artimgborder{
+  float: none;
 }
 
-@font-face {
-  font-family: myFirstFont;
+}
+
+@font-face{
+  font-family: SansPro-Black.otf;
   src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Black.otf);
 }
 
-
 @font-face {
-  font-family: myFirstFont2;
+  font-family:BlackIt.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-BlackIt.otf);
+}
+
+@font-face{
+  font-family: SansPro-Bold.otf;
   src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Bold.otf);
 }
 
-
+@font-face {
+  font-family: SansPro-BoldIt.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-BoldIt.otf);
+}
 
 @font-face {
-  font-family: myFirstFont3;
+  font-family: SansPro-ExtraLight.otf;
+  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: ExtraLightIt.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-ExtraLightIt.otf);
+}
+
+@font-face {
+  font-family: SansPro-It.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-It.otf);
+}
+
+@font-face {
+  font-family: Light.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: LightIt.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-LightIt.otf);
+}
+
+
+@font-face{
+  font-family: SansPro-Regular.otf;
   src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Regular.otf);
 }
 
 
 @font-face {
-  font-family: myFirstFont4;
-  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-ExtraLight.otf);
-}
-
-@font-face {
-  font-family: myFirstFont5;
-  src: url(/home/satish/Downloads/HTML_CSS Assignment/HTML:CSS Assignment/font/SourceSansPro-Black.otf);
-}
-
-@font-face {
-  font-family: myFirstFont6;
+  font-family: emibold.otf;
   src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-Semibold.otf);
 }
 
-
-
+@font-face {
+  font-family: SemiboldIt.otf;
+  src: url(/home/satish/Desktop/Assignment3_html/Html-Assignment/font/SourceSansPro-SemiboldIt.otf);
+}
 
 
 
